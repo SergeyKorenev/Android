@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.MainActivity">
+    <item
+        android:id="@+id/action_SiteList"
+        android:orderInCategory="100"
+        android:title="List sites"
+        app:showAsAction="never"
+        android:onClick="selectListOnMenu"/>
+</menu>
